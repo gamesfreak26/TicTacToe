@@ -10,6 +10,10 @@ namespace TicTacToe
     {
         static void Main(string[] args)
         {
+            var board = new Board();
+            board.DrawBoard();
+
+            
         }
     }
 }
